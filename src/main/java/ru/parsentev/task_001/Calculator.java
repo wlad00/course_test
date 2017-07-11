@@ -19,7 +19,7 @@ public class Calculator {
     }
 
     public void add(double first, double second) {
-        throw new UnsupportedOperationException();
+        this.result = first + second;
     }
 
     public void substract(double first, double second) {
