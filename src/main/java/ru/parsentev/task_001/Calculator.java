@@ -23,7 +23,7 @@ public class Calculator {
     }
 
     public void substract(double first, double second) {
-        throw new UnsupportedOperationException();
+        this.result = first - second;
     }
 
     public void multiple(double first, double second) {
